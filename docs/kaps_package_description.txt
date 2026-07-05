@@ -1,0 +1,36 @@
+Package: kaps
+Title: K-Adaptive Partitioning for Survival Data
+Date: 2019-07-14
+Version: 1.1.4
+Authors@R: c(person(given = "Soo-Heang", family = "Eo", role = c("aut","cre"), 
+	email = "eo.sooheang@gmail.com"),
+			person(given = "Seung-Mo", family = "Hong", role = "ctb"),
+             person(given = "HyungJun", family = "Cho", role = "aut", 
+	email = "hj4cho@korea.ac.kr"))
+Description: Multi-way partitioning algorithms are implemented, which divides the data into K heterogeneous subgroups based on the information from a prognostic factor. The resulting subgroups show significant differences in survival. For more details, see Eo et al. (2013) <arXiv:1306.4615>.
+Depends: R (>= 3.6.0), survival (>= 2.39-1)
+Imports: methods, graphics, Formula, coin (>= 1.1-3), stats, grDevices,
+        locfit (>= 1.5-9.1)
+Suggests: testthat, lintr
+URL: https://github.com/sooheang/kaps
+BugReports: https://github.com/sooheang/kaps/issues
+Encoding: UTF-8
+LazyData: yes
+License: GPL-3
+Maintainer: Soo-Heang Eo <eo.sooheang@gmail.com>
+NeedsCompilation: yes
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: kaps
+RemoteUsername: sooheang
+RemoteRef: v1.1.5
+RemoteSha: 4f1ddedbfb4b1694b328b825a41f19489f2a1272
+GithubRepo: kaps
+GithubUsername: sooheang
+GithubRef: v1.1.5
+GithubSHA1: 4f1ddedbfb4b1694b328b825a41f19489f2a1272
+Packaged: 2026-04-29 03:48:45 UTC; irizab
+Author: Soo-Heang Eo [aut, cre],
+  Seung-Mo Hong [ctb],
+  HyungJun Cho [aut]
+Built: R 3.6.3; x86_64-conda-linux-gnu; 2026-04-29 03:48:46 UTC; unix
