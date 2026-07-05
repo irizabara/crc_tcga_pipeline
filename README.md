@@ -163,8 +163,7 @@ Institution-specific paths, credentials, and access tokens were removed.
 
 [`01_mss_pe_pc1_analysis.R`](scripts/part3_mss_pc1/01_mss_pe_pc1_analysis.R)
 
-Part 3 narrowed the analysis to microsatellite-stable, paired-end samples to reduce heterogeneity and examine a sequencing-qualified TE-expression axis.
-
+Part 3 — TE-family composition axis (MSS, paired-end). Because Part 1 showed sequencing type dominated the TE-expression matrix, analysis is stratified by sequencing type; within MSS paired-end tumors, PC1 captures a TE-family composition axis (LTR/ERV + LINE vs SINE/Alu), characterized through immune/stromal correlates, GSEA, KAPS, and WSI prediction.
 The workflow documents:
 
 1. filtering to MSS paired-end samples,
